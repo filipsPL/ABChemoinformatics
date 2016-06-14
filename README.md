@@ -6,6 +6,40 @@
 
 # TOC
 
+Table of Contents
+=================
+
+  * [TOC](#toc)
+  * [Intro \- to read](#intro---to-read)
+    * [Basic concepts](#basic-concepts)
+      * [Molecular scaffolds](#molecular-scaffolds)
+      * [Ligands activity measures](#ligands-activity-measures)
+  * [Software](#software)
+    * [Drawing and visualizing small molecules](#drawing-and-visualizing-small-molecules)
+    * [Molecule formats and formats conversion](#molecule-formats-and-formats-conversion)
+    * [Pymol](#pymol)
+    * [KNIME](#knime)
+  * [Databases and online tools :: macromolecules](#databases-and-online-tools--macromolecules)
+    * [Scientific literature](#scientific-literature)
+    * [Patents](#patents)
+    * [Sequences](#sequences)
+      * [Similar sequences](#similar-sequences)
+      * [Sequences Alignment](#sequences-alignment)
+    * [Other](#other)
+  * [Databases and online tools :: small molecules](#databases-and-online-tools--small-molecules)
+    * [Chemical structures](#chemical-structures)
+    * [Activity](#activity)
+    * [Other](#other-1)
+    * [Drugs](#drugs)
+    * [ADMET properties estimation](#admet-properties-estimation)
+  * [Software corner](#software-corner)
+    * [Git](#git)
+    * [Gitlab](#gitlab)
+    * [Markdown](#markdown)
+  * [RNA Structural Bioinformatics](#rna-structural-bioinformatics)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
 # Intro - to read
 
 - https://en.wikipedia.org/wiki/Enzyme_inhibitor
