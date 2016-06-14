@@ -17,5 +17,9 @@ Inspired by magnus' [RNA Structural Bioinformatics Crash Course](https://github.
 - https://en.wikipedia.org/wiki/ADME
 - https://en.wikipedia.org/wiki/Quantitative_structure%E2%80%93activity_relationship
 - https://en.wikipedia.org/wiki/Docking_%28molecular%29
- 
+
+## Basic concepts
+
+![scaffolds](data/scaffolds.png)
+
 # 
