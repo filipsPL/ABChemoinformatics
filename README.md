@@ -107,6 +107,22 @@ MarvinSketch from MarvinBeans Suite. Download for free (after registration): htt
 See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#pymol
 
 
+:zap: **Practicals:**
+
+- for protein 4N49 prepare images:
+ - general view of the complex; transparency, raytracing
+
+![pymol](data/pymol1.png)
+
+ - hydrogen bond network in the binding pocket:
+
+![pymol](data/pymol2.png)
+
+ - distance and angles measurement; sidechains labelling:
+ 
+![pymol](data/pymol3.png)
+
+
 ## KNIME
 
 - Download: https://www.knime.org/knime
