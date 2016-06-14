@@ -90,9 +90,18 @@ MarvinSketch from MarvinBeans Suite. Download for free (after registration): htt
 - generate conformers
 
 
-## Pymol
+## PyMOL
 
+### Installing under debian/ubuntu/mint
+
+- download the script: https://raw.githubusercontent.com/filipsPL/ABChemoinformatics/master/compile-pymol.sh
+- make it executable: `chmod +x compile-pymol.sh`
+- run compilation `./compile-pymol.sh`
+- run pymol `/opt/pymol-svn/pymol`
+
+### Usage
 See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#pymol
+
 
 ## KNIME
 
