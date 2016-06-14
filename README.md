@@ -127,11 +127,11 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 -----
 
 :zap: **Practicals:**
-1. Find residues crutial for 2'-O-methyltransferase activity of Dengue virus type 2 (strain Thailand/16681/1984)
-1. Find all sequences containing mRNA cap 0-1 NS5-type MT domain
-1. Find reviewed sequences of Flaviviridae methyltransferases (`taxonomy: Flaviviridae`)
-1. Find sequences similar to the human IDO1 proteins
-1. What are differences between four most similar sequences?
+- Find residues crutial for 2'-O-methyltransferase activity of Dengue virus type 2 (strain Thailand/16681/1984)
+- Find all sequences containing mRNA cap 0-1 NS5-type MT domain
+- Find reviewed sequences of Flaviviridae methyltransferases (`taxonomy: Flaviviridae`)
+- Find sequences similar to the human IDO1 proteins
+- What are differences between four most similar sequences?
  
 # Databases and online tools :: small molecules
 
