@@ -185,3 +185,25 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 ![zapytanie](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/zapytanie_patentowe.png)
 
+
+# Software corner
+
+## Git
+
+Git (/ɡɪt/) is a version control system that is widely used for software development and other version control tasks. It is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.[9] Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+- https://gitlab.genesilico.pl/Tutorials/git_crash_course (private)
+- https://en.wikipedia.org/wiki/Git_%28software%29
+
+## Gitlab
+
+GitLab, the software, is a web-based Git repository manager with wiki and issue tracking features. 
+
+- git usage
+- wiki editing
+ 
+
+## Markdown
+
+- see: https://en.wikipedia.org/wiki/Markdown
+- Mastering Markdown: https://guides.github.com/features/mastering-markdown/ 
