@@ -1,8 +1,6 @@
 # ABC of Chemoinformatics
 
-... with focus on macromolecule-ligand interactions.
-
-Inspired by magnus' [RNA Structural Bioinformatics Crash Course](https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#rna-structural-bioinformatics-crash-course)
+... with focus on macromolecule-ligand interactions. Inspired by magnus' [RNA Structural Bioinformatics Crash Course](https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#rna-structural-bioinformatics-crash-course)
 
 ![email](data/email.png)
 
@@ -132,7 +130,6 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 1. Find residues crutial for 2'-O-methyltransferase activity of Dengue virus type 2 (strain Thailand/16681/1984)
 1. Find all sequences containing mRNA cap 0-1 NS5-type MT domain
 1. Find reviewed sequences of Flaviviridae methyltransferases (`taxonomy: Flaviviridae`)
-
 1. Find sequences similar to the human IDO1 proteins
 1. What are differences between four most similar sequences?
  
@@ -140,7 +137,7 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 ## Chemical structures
 
-* http://zinc.docking.org/ (aspirin)
+* http://zinc.docking.org/ (aspirin) :boom:
 * https://pubchem.ncbi.nlm.nih.gov/
 * http://www.chemspider.com/
 * http://www.emolecules.com/
@@ -163,25 +160,18 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 * https://www.ebi.ac.uk/chembl/drugstore
 * http://www.genome.jp/kegg/drug/ -  a comprehensive drug information resource for approved drugs in Japan, USA, and Europe unified based on the chemical structures and/or the chemical components, and associated with target, metabolizing enzyme, and other molecular interaction network information.
 
-## Metabolites
-* http://www.hmdb.ca/ - detailed information about small molecule metabolites found in the human body
-  * Np: L-tyrosine http://www.hmdb.ca/metabolites/HMDB00158
-* http://www.ebi.ac.uk/metabolights/index -  a database for Metabolomics experiments and derived information.
-The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments. (urea)
-* http://smpdb.ca/ - SMPDB (The Small Molecule Pathway Database) - an interactive, visual database containing more than 618 small molecule pathways found in humans
- * cykl mocznikowy ("Urea Cycle")
 
 ## ADMET properties estimation
 
 * http://www.organic-chemistry.org/prog/peo/ - OSIRIS Property Explorer
 
-
+-----
 
 :zap: **Practicals:**
 
 * Find all activities of the compound:
-
 ![structure](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/dopalacz.png)
+  * Download values of IC50 in the csv file
 
 * Find all registered drugs that targets RNA
 * Find possible bioisosteres of 3-methylindole (R in position 5)
@@ -191,8 +181,7 @@ The database is cross-species, cross-technique and covers metabolite structures 
  - find calculated values of logP i TPSA
  - find comercially available compounds that are similar at 80% (Tanimoto similarity)
 
-* For compound:
+* Find patents mentioning this structure:
 
 ![zapytanie](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/zapytanie_patentowe.png)
 
- - Find patents mentioning this structure
