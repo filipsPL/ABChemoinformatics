@@ -6,7 +6,7 @@
 
 # TOC
 
-  * [Intro \- to read](#intro---to-read)
+ * [Intro \- to read](#intro---to-read)
     * [Basic concepts](#basic-concepts)
       * [Molecular scaffolds](#molecular-scaffolds)
       * [Ligands activity measures](#ligands-activity-measures)
@@ -22,6 +22,9 @@
       * [Similar sequences](#similar-sequences)
       * [Sequences Alignment](#sequences-alignment)
     * [Other](#other)
+    * [PDB](#pdb)
+      * [Tools:](#tools)
+      * [Homology modeling](#homology-modeling)
   * [Databases and online tools :: small molecules](#databases-and-online-tools--small-molecules)
     * [Chemical structures](#chemical-structures)
     * [Activity](#activity)
@@ -154,6 +157,27 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 * https://www.targetvalidation.org/
 
+
+## PDB
+
+- http://www.rcsb.org/pdb/home/home.do - This resource is powered by the Protein Data Bank archive-information about the 3D shapes of proteins, nucleic acids, and complex assemblies that helps students and researchers understand all aspects of biomedicine and agriculture, from protein synthesis to health and disease.
+- http://ndbserver.rutgers.edu/ - contains information about experimentally-determined nucleic acids and complex assemblies.
+
+### Tools:
+- http://dogsite.zbh.uni-hamburg.de/ - on line pocket finder
+- https://www.ebi.ac.uk/pdbsum -> Cleft analysis
+- http://mole.upol.cz/ - rapid and fully automated location and characterization of channels, tunnels and pores
+- Druggability: https://www.ebi.ac.uk/chembl/drugebility/structure (try: 1UV5)
+
+### Homology modeling
+
+Homology modeling, also known as comparative modeling of protein, refers to constructing an atomic-resolution model of the "target" protein from its amino acid sequence and an experimental three-dimensional structure of a related homologous protein (the "template"). (from: wikipedia)
+
+- http://swissmodel.expasy.org/
+
+
+
+
 -----
 
 :zap: **Practicals:**
@@ -162,6 +186,11 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 - Find reviewed sequences of Flaviviridae methyltransferases (`taxonomy: Flaviviridae`)
 - Find sequences similar to the human IDO1 proteins
 - What are differences between four most similar sequences?
+- Find x-ray structure of Cap-specific mRNA (nucleoside-2'-O-)-methyltransferase 1 Protein in complex with m7GpppG and SAM
+ - download it and visualize with pymol
+ - fetch fasta sequence
+ - show interactions diagram for both ligands
+ - find other structures containing SAM ligand
  
 # Databases and online tools :: small molecules
 
