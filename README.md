@@ -6,10 +6,6 @@
 
 # TOC
 
-Table of Contents
-=================
-
-  * [TOC](#toc)
   * [Intro \- to read](#intro---to-read)
     * [Basic concepts](#basic-concepts)
       * [Molecular scaffolds](#molecular-scaffolds)
