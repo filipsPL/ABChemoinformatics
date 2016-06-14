@@ -207,3 +207,8 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 
 - see: https://en.wikipedia.org/wiki/Markdown
 - Mastering Markdown: https://guides.github.com/features/mastering-markdown/ 
+
+
+# RNA Structural Bioinformatics
+
+- see: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#table-of-contents
