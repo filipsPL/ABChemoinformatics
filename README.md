@@ -88,3 +88,58 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 - play with another types of plot (parallel coordinates, bar plots, conditional bar plots etc)
 - sort the table according to Pareto Ran value (ascending)
 - save 10 top ranking compounds to csv and xls files.
+
+
+# Databases and online tools
+
+## Scientific literature
+* Pubmed: http://www.ncbi.nlm.nih.gov/pubmed/
+* Google scholar: https://scholar.google.pl/
+
+## Patents
+* google patents: http://www.google.com/patents
+* espace net: http://worldwide.espacenet.com/
+  * depatis net: https://depatisnet.dpma.de
+* WIPO: https://patentscope.wipo.int/search/en/search.jsf
+
+
+## Sequences
+
+* http://www.uniprot.org/ high-quality and freely accessible resource of protein sequence and functional information.
+* http://www.ebi.ac.uk/interpro/ - provides functional analysis of proteins by classifying them into families and predicting domains and important sites
+
+### Similar sequences
+
+* http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE=Proteins&PROGRAM=blastp&RUN_PSIBLAST=on - search protein databases using a protein query. 
+* http://www.ebi.ac.uk/Tools/sss/ncbiblast/ - to find regions of sequence similarity, which will yield functional and evolutionary clues about the structure and function of your novel sequence. 
+* http://toolkit.tuebingen.mpg.de/cs_blast CS-BLAST is an extension to standard NCBI BLAST that allows to increase its sensitivity by a factor of more than two on remote homologs at the same speed.
+* http://toolkit.tuebingen.mpg.de/hhpred - Homology detection & structure prediction by HMM-HMM comparison
+* Inne: http://toolkit.tuebingen.mpg.de/sections/search
+
+
+### Sequences Alignment
+* Pairwise Sequence Alignment: https://www.ebi.ac.uk/Tools/psa/
+* Multiple Sequence Alignment: http://www.ebi.ac.uk/Tools/msa/clustalo/
+
+## Other
+
+* https://www.targetvalidation.org/
+
+
+:zap: **Practicals:**
+1. Find residues crutial for 2'-O-methyltransferase activity of Dengue virus type 2 (strain Thailand/16681/1984)
+1. Znaleźć sekwencję domeny metylotransferazowej (słowa kluczowe: mRNA   cap 0-1  NS5-type  MT)
+    1. Wyszukać inne sekwencje w UniProcie zawierające tę domenę. Ile sekwencji udało się znaleźć?
+    1. Wyszukać **podobne** sekwencje **wirusowe** w bazie UniProt. Ile sekwencji recenzowanych udało się znaleźć?
+
+1. Znaleźć zrecenzowane (reviewed) sekwencje metylotransferaz (ang: methyltransferase) należących do Flawiwirusów (taxonomy: Flaviviridae)
+
+1. Jaka jest funkcja, jakie są domeny, co można przewidzieć dla białka o sekwencji: z uniprot o ID: `P14902`
+
+
+Hint: np. InterPro
+
+### Przeszukiwanie baz danych
+
+1. Wyszukać sekwencji podobnych do ludzkiego białka IDO1 - czy różne narzędzia zwracają różne wyniki?
+1. jakie są różnice między 4 napodobniejszymi sekwencjami?
