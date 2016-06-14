@@ -65,7 +65,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 The median affinity (IC50, EC50, ED50, Ki, Kd) for current small-molecule drugs is around **20 nM** (source: doi:10.1038/nrd2199)
 
-
 # Software
 
 ## Drawing and visualizing small molecules
@@ -247,19 +246,23 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 
 # Software corner
 
+## Linux and Bash
+- Linux Bash Shell Cheat Sheet - http://cli.learncodethehardway.org/bash_cheat_sheet.pdf (PDF)
+
+
 ## Git
 
 Git (/ɡɪt/) is a version control system that is widely used for software development and other version control tasks. It is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.[9] Git was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
 
-- https://gitlab.genesilico.pl/Tutorials/git_crash_course (private)
+- https://gitlab.genesilico.pl/Tutorials/git_crash_course
 - https://en.wikipedia.org/wiki/Git_%28software%29
 
 ## Gitlab
 
 GitLab, the software, is a web-based Git repository manager with wiki and issue tracking features. 
 
-- git usage
-- wiki editing
+- git - for storing files
+- wiki - for documentation (and/or IPython Notebook: https://ipython.org/notebook.html)
  
 
 ## Markdown
@@ -271,3 +274,4 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 # RNA Structural Bioinformatics
 
 - see: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#table-of-contents
+- see: http://genesilico.pl/ -> "software"
