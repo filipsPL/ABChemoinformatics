@@ -13,7 +13,9 @@
   * [Software](#software)
     * [Drawing and visualizing small molecules](#drawing-and-visualizing-small-molecules)
     * [Molecule formats and formats conversion](#molecule-formats-and-formats-conversion)
-    * [Pymol](#pymol)
+    * [PyMOL](#pymol)
+      * [Installing under debian/ubuntu/mint](#installing-under-debianubuntumint)
+      * [Usage](#usage)
     * [KNIME](#knime)
   * [Databases and online tools :: macromolecules](#databases-and-online-tools--macromolecules)
     * [Scientific literature](#scientific-literature)
@@ -31,7 +33,9 @@
     * [Other](#other-1)
     * [Drugs](#drugs)
     * [ADMET properties estimation](#admet-properties-estimation)
+      * [Cytochrome P450](#cytochrome-p450)
   * [Software corner](#software-corner)
+    * [Linux and Bash](#linux-and-bash)
     * [Git](#git)
     * [Gitlab](#gitlab)
     * [Markdown](#markdown)
@@ -130,6 +134,8 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 
 # Databases and online tools :: macromolecules
+
+:warning: Never reveal/use confidental structures on public servers!
 
 ## Scientific literature
 * Pubmed: http://www.ncbi.nlm.nih.gov/pubmed/
@@ -230,7 +236,21 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 
 ## ADMET properties estimation
 
-* http://www.organic-chemistry.org/prog/peo/ - OSIRIS Property Explorer
+- http://www.organic-chemistry.org/prog/peo/ - OSIRIS Property Explorer
+- https://disco.chemaxon.com/apps/demos/ - ChemAxon - Calculator Plugin Demos
+- http://bleoberis.bioc.cam.ac.uk/pkcsm/prediction - pkCSM: predicting small-molecule pharmacokinetic properties using graph-based signatures
+- http://www.organic-chemistry.org/prog/peo/ - calculates on-the-fly various drug-relevant properties
+- http://lmmd.ecust.edu.cn:8000/ - A comprehensive source and free tool for evaluating chemical ADMET properties
+- http://tox.charite.de/tox/ - a webserver for the prediction of oral toxicities of small molecules in rodents! 
+- http://toxnet.nlm.nih.gov/newtoxnet/hsdb.htm - a toxicology database that focuses on the toxicology of potentially hazardous chemicals. It provides information on human exposure, industrial hygiene, emergency handling procedures, environmental fate, regulatory requirements, nanomaterials, and related areas. The information in HSDB has been assessed by a Scientific Review Panel.
+- http://bioinformatics.charite.de/supertoxic/index.php?site=home - collected toxic compounds from literature and web sources in the database SuperToxic. 
+
+### Cytochrome P450
+
+* What is Cytochrome P450: https://en.wikipedia.org/wiki/Cytochrome_P450
+* http://www.farma.ku.dk/smartcyp/index.php - SMARTCyp predicts the sites in molecules that are most liable to cytochrome P450 mediated metabolism
+* http://www.farma.ku.dk/whichcyp/index.php - WhichCyp predicts which P450 isoform will bind/metabolize a molecule using simple yes/no classification models. 
+
 
 -----
 
@@ -252,6 +272,7 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 
 ![zapytanie](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/zapytanie_patentowe.png)
 
+* Predict various physio-chemical/ADMET properties for the aspirin
 
 # Software corner
 
