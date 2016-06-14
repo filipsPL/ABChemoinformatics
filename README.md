@@ -41,7 +41,7 @@ The median affinity (IC50, EC50, ED50, Ki, Kd) for current small-molecule drugs 
 
 MarvinSketch from MarvinBeans Suite. Download for free (after registration): https://www.chemaxon.com/download/marvin-suite/#mbeans
 
-:thought_balloon: **Practicals:**
+:zap: **Practicals:**
 - Draw the LSD molecule
 - Save it as smiles, mol2, sdf
 - copy it to clipboard as smiles and paste to the notepad
@@ -53,12 +53,38 @@ MarvinSketch from MarvinBeans Suite. Download for free (after registration): htt
 - http://openbabel.org/wiki/Main_Page
 - http://openbabel.org/docs/current/Command-line_tools/babel.html
 
-:thought_balloon: **Practicals:**
+:zap: **Practicals:**
 - convert saved molecules to sdf, mol2 and PDB
 - add hydrogens
 - optimize 3D structure
 - generate conformers
-- 
 
 
+## Pymol
 
+See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#pymol
+
+## KNIME
+
+- Download: https://www.knime.org/knime
+- Quick Start Guide: https://tech.knime.org/files/KNIME_quickstart.pdf (PDF)
+
+:zap: **Practicals:**
+
+- From the ChemBlDb, download IC50 activity for JAK2 Kinase
+- prepare a workflow:
+ - Read the data from CSV file
+ - convert smiles string to structures
+ - calculate moelcular descriptors: AMW, logP, TPSA
+ - calculate logBB according to the formlula: ![formula](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/KNIME/JAK/BBB.png) (:bulb: use Math Node)
+ - calculate the pareto rank, minimizing IC50 value, MW, logP and TPSA
+
+- For these data:
+ - Create a 3D plot:
+ - xyz: TPSA / logP / AMW
+ - color by: IC50
+ - points size: logBB
+ - save as png
+- play with another types of plot (parallel coordinates, bar plots, conditional bar plots etc)
+- sort the table according to Pareto Ran value (ascending)
+- save 10 top ranking compounds to csv and xls files.
