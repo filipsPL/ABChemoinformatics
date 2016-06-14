@@ -109,16 +109,17 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 :zap: **Practicals:**
 
-- for protein 4N49 prepare images:
- - general view of the complex; transparency, raytracing
+For protein 4N49 prepare images:
+
+- general view of the complex; transparency, raytracing
 
 ![pymol](data/pymol1.png)
 
- - hydrogen bond network in the binding pocket:
+- hydrogen bond network in the binding pocket:
 
 ![pymol](data/pymol2.png)
 
- - distance and angles measurement; sidechains labelling:
+- distance and angles measurement; sidechains labelling:
  
 ![pymol](data/pymol3.png)
 
