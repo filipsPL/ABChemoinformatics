@@ -90,7 +90,7 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 - save 10 top ranking compounds to csv and xls files.
 
 
-# Databases and online tools
+# Databases and online tools :: macromolecules
 
 ## Scientific literature
 * Pubmed: http://www.ncbi.nlm.nih.gov/pubmed/
@@ -101,6 +101,7 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 * espace net: http://worldwide.espacenet.com/
   * depatis net: https://depatisnet.dpma.de
 * WIPO: https://patentscope.wipo.int/search/en/search.jsf
+* https://www.surechembl.org/search/ - Open Patent Data
 
 
 ## Sequences
@@ -125,21 +126,73 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 * https://www.targetvalidation.org/
 
+-----
 
 :zap: **Practicals:**
 1. Find residues crutial for 2'-O-methyltransferase activity of Dengue virus type 2 (strain Thailand/16681/1984)
-1. Znaleźć sekwencję domeny metylotransferazowej (słowa kluczowe: mRNA   cap 0-1  NS5-type  MT)
-    1. Wyszukać inne sekwencje w UniProcie zawierające tę domenę. Ile sekwencji udało się znaleźć?
-    1. Wyszukać **podobne** sekwencje **wirusowe** w bazie UniProt. Ile sekwencji recenzowanych udało się znaleźć?
+1. Find all sequences containing mRNA cap 0-1 NS5-type MT domain
+1. Find reviewed sequences of Flaviviridae methyltransferases (`taxonomy: Flaviviridae`)
 
-1. Znaleźć zrecenzowane (reviewed) sekwencje metylotransferaz (ang: methyltransferase) należących do Flawiwirusów (taxonomy: Flaviviridae)
+1. Find sequences similar to the human IDO1 proteins
+1. What are differences between four most similar sequences?
+ 
+# Databases and online tools :: small molecules
 
-1. Jaka jest funkcja, jakie są domeny, co można przewidzieć dla białka o sekwencji: z uniprot o ID: `P14902`
+## Chemical structures
+
+* http://zinc.docking.org/ (aspirin)
+* https://pubchem.ncbi.nlm.nih.gov/
+* http://www.chemspider.com/
+* http://www.emolecules.com/
+
+## Activity
+* https://www.ebi.ac.uk/chembl/ :boom:
+* Also: https://pubchem.ncbi.nlm.nih.gov/ - BioAssay
+* http://www.bindingdb.org/bind/index.jsp
+* http://chemoinfo.ipmc.cnrs.fr/MOLDB/index.html - e-Drug3D offers a facility to explore FDA approved drugs and active metabolites.
+* http://bitterdb.agri.huji.ac.il/ - currently holds over 680 bitter compounds obtained from the literature and from Merck index and their associated 25 human bitter taste receptors (hT2Rs). 
+* http://www.eidogen-sertanty.com/kinasekb.php - Kinase Knowledgebase (KKB)
+* https://www.ebi.ac.uk/chembl/malaria/ - resource for publicly available compounds, targets, assays and data for malaria research
+
+## Other
+* http://www.swissbioisostere.ch/ - baza izosterów (COOH)
+
+## Drugs
+* http://www.drugbank.ca/ (1-phenyl-2-aminopropane)
+* http://bidd.nus.edu.sg/group/ttd/ttd.asp (ALK)
+* https://www.ebi.ac.uk/chembl/drugstore
+* http://www.genome.jp/kegg/drug/ -  a comprehensive drug information resource for approved drugs in Japan, USA, and Europe unified based on the chemical structures and/or the chemical components, and associated with target, metabolizing enzyme, and other molecular interaction network information.
+
+## Metabolites
+* http://www.hmdb.ca/ - detailed information about small molecule metabolites found in the human body
+  * Np: L-tyrosine http://www.hmdb.ca/metabolites/HMDB00158
+* http://www.ebi.ac.uk/metabolights/index -  a database for Metabolomics experiments and derived information.
+The database is cross-species, cross-technique and covers metabolite structures and their reference spectra as well as their biological roles, locations and concentrations, and experimental data from metabolic experiments. (urea)
+* http://smpdb.ca/ - SMPDB (The Small Molecule Pathway Database) - an interactive, visual database containing more than 618 small molecule pathways found in humans
+ * cykl mocznikowy ("Urea Cycle")
+
+## ADMET properties estimation
+
+* http://www.organic-chemistry.org/prog/peo/ - OSIRIS Property Explorer
 
 
-Hint: np. InterPro
 
-### Przeszukiwanie baz danych
+:zap: **Practicals:**
 
-1. Wyszukać sekwencji podobnych do ludzkiego białka IDO1 - czy różne narzędzia zwracają różne wyniki?
-1. jakie są różnice między 4 napodobniejszymi sekwencjami?
+* Find all activities of the compound:
+
+![structure](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/dopalacz.png)
+
+* Find all registered drugs that targets RNA
+* Find possible bioisosteres of 3-methylindole (R in position 5)
+
+* For compound named `(2S)-4-[3-(5-methyl-2-furyl)benzofuran-2-yl]-2-phenyl-butan-2-ol`
+ - find vendors
+ - find calculated values of logP i TPSA
+ - find comercially available compounds that are similar at 80% (Tanimoto similarity)
+
+* For compound:
+
+![zapytanie](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/zapytanie_patentowe.png)
+
+ - Find patents mentioning this structure
