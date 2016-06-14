@@ -135,7 +135,7 @@ See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/
 
 # Databases and online tools :: macromolecules
 
-:warning: Never reveal/use confidental structures on public servers!
+:bangbang: :warning: **Never reveal/use confidental structures on public servers!** 
 
 ## Scientific literature
 * Pubmed: http://www.ncbi.nlm.nih.gov/pubmed/
@@ -195,6 +195,9 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 -----
 
 :zap: **Practicals:**
+
+:bangbang: :warning: **Never reveal/use confidental structures on public servers!** 
+
 - Find residues crutial for 2'-O-methyltransferase activity of Dengue virus type 2 (strain Thailand/16681/1984)
 - Find all sequences containing mRNA cap 0-1 NS5-type MT domain
 - Find reviewed sequences of Flaviviridae methyltransferases (`taxonomy: Flaviviridae`)
@@ -205,8 +208,13 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
  - fetch fasta sequence
  - show interactions diagram for both ligands
  - find other structures containing SAM ligand
+
+
+
  
 # Databases and online tools :: small molecules
+
+:bangbang: :warning: **Never reveal/use confidental structures on public servers!** 
 
 ## Chemical structures
 
@@ -255,6 +263,8 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 -----
 
 :zap: **Practicals:**
+
+:bangbang: :warning: **Never reveal/use confidental structures on public servers!** 
 
 * Find all activities of the compound:
 ![structure](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/dopalacz.png)
