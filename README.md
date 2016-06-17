@@ -149,6 +149,38 @@ For protein 4N49 prepare images:
 - sort the table according to Pareto Ran value (ascending)
 - save 10 top ranking compounds to csv and xls files.
 
+## Molecular docking
+
+### AutoDock Vina
+
+- http://vina.scripps.edu/
+- Official tutorial: http://vina.scripps.edu/tutorial.html
+- pymol plugin: http://www.pymolwiki.org/index.php/Autodock_plugin
+
+### rDock
+
+- http://rdock.sourceforge.net/
+- Official tutorial: http://rdock.sourceforge.net/docking-in-3-steps/
+
+### Results' rescoring
+
+- For RNA-ligand complexes: LigandRNA: http://ligandrna.genesilico.pl/
+- For Protein-ligand complexes: NNScore 2.0: http://nbcr.ucsd.edu/data/sw/hosted/nnscore/
+
+### Other programs
+
+- http://www.tcd.uni-konstanz.de/research/plants.php - PLANTS - Protein-Ligand ANT System
+- http://dock.compbio.ucsf.edu/ - Dock 6.x
+
+
+:zap: **Practicals:**
+
+- for complexes of interest perform redocking of the native ligands to the macromolecule structure
+ - use various docking programs (AutoDock Vina, rDock...)
+ - check the influence of various ligand preparation steps (eg: ligand: native X-ray structure vs optimized with openbabel vs ...)
+ - check the influence of rescoring on the docking results
+ - which combination gives the best results? (and what mean "best results"?)
+
 
 # Databases and online tools :: macromolecules
 
@@ -250,7 +282,7 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 * https://www.ebi.ac.uk/chembl/malaria/ - resource for publicly available compounds, targets, assays and data for malaria research
 
 ## Other
-* http://www.swissbioisostere.ch/ - baza izosterów (COOH)
+* http://www.swissbioisostere.ch/ - isosters database
 
 ## Drugs
 * http://www.drugbank.ca/ (1-phenyl-2-aminopropane)
