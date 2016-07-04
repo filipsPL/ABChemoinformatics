@@ -9,3 +9,16 @@
 # Chimera - interesting stuff
 
 - Image Tutorial: Surface Properties: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/surfprop.html
+
+
+```
+delete :.a
+del solvent
+surface
+~disp ions
+setattr m stickScale 2
+color yellow ligand & C 
+
+# hydrophobicity:
+rangecolor kdHydrophobicity min dodger blue 0 white max orange red
+```
