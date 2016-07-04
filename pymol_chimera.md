@@ -1,8 +1,6 @@
 # Pymol vs Chimera - command line commands comparison
 
-| pymol | chimera |
-|-------|---------|
-| bg_color black | background solid black |
-| | |
-| | |
-| | |
+| what| pymol | chimera |
+|-------|-------|---------|
+| background color | `bg_color black` | `background solid black` |
+
