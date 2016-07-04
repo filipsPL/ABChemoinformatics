@@ -1,40 +1,43 @@
-# ABC of Chemoinformatics
+ABC of Chemoinformatics
+==================
 
 ... with focus on macromolecule-ligand interactions. Inspired by magnus' [RNA Structural Bioinformatics Crash Course](https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#rna-structural-bioinformatics-crash-course)
 
 ![email](data/email.png)
 
-# TOC
+TOC
+==================
 
- * [Intro \- to read](#intro---to-read)                                                                                                                                                                                                                                       
-    * [Basic concepts](#basic-concepts)                                                                                                                                                                                                                                        
-      * [Molecular scaffolds](#molecular-scaffolds)                                                                                                                                                                                                                            
-      * [Ligands activity measures](#ligands-activity-measures)                                                                                                                                                                                                                
-  * [Software](#software)                                                                                                                                                                                                                                                      
-    * [Drawing and visualizing small molecules](#drawing-and-visualizing-small-molecules)                                                                                                                                                                                      
-    * [Molecule formats and formats conversion](#molecule-formats-and-formats-conversion)                                                                                                                                                                                      
-    * [PyMOL](#pymol)                                                                                                                                                                                                                                                          
-      * [Installing under debian/ubuntu/mint](#installing-under-debianubuntumint)                                                                                                                                                                                              
-      * [Usage](#usage)                                                                                                                                                                                                                                                        
-    * [KNIME](#knime)                                                                                                                                                                                                                                                          
-    * [Molecular docking](#molecular-docking)                                                                                                                                                                                                                                  
-      * [AutoDock Vina](#autodock-vina)                                                                                                                                                                                                                                        
-      * [rDock](#rdock)                                                                                                                                                                                                                                                        
-      * [Results' rescoring](#results-rescoring)                                                                                                                                                                                                                               
-      * [Other programs](#other-programs)                                                                                                                                                                                                                                      
-  * [Databases and online tools :: macromolecules](#databases-and-online-tools--macromolecules)                                                                                                                                                                                
-    * [Scientific literature](#scientific-literature)                                                                                                                                                                                                                          
-    * [Patents](#patents)                                                                                                                                                                                                                                                      
-    * [Sequences](#sequences)                                                                                                                                                                                                                                                  
-      * [Similar sequences](#similar-sequences)                                                                                                                                                                                                                                
-      * [Sequences Alignment](#sequences-alignment)                                                                                                                                                                                                                            
-    * [Other](#other)                                                                                                                                                                                                                                                          
-    * [PDB](#pdb)                                                                                                                                                                                                                                                              
-      * [Tools](#tools)                                                                                                                                                                                                                                                        
-      * [Homology modeling](#homology-modeling)                                                                                                                                                                                                                                
-  * [Databases and online tools :: small molecules](#databases-and-online-tools--small-molecules)                                                                                                                                                                              
-    * [Chemical structures](#chemical-structures)                                                                                                                                                                                                                              
-    * [Activity](#activity)                                                                                                                                                                                                                                                    
+  * [Intro \- to read](#intro---to-read)
+    * [Basic concepts](#basic-concepts)
+      * [Molecular scaffolds](#molecular-scaffolds)
+      * [Ligands activity measures](#ligands-activity-measures)
+  * [Software](#software)
+    * [Drawing and visualizing small molecules](#drawing-and-visualizing-small-molecules)
+    * [Molecule formats and formats conversion](#molecule-formats-and-formats-conversion)
+    * [PyMOL](#pymol)
+      * [Installing under debian/ubuntu/mint](#installing-under-debianubuntumint)
+      * [Usage](#usage)
+    * [UCSF Chimera (optional)](#ucsf-chimera-optional)
+    * [KNIME](#knime)
+    * [Molecular docking](#molecular-docking)
+      * [AutoDock Vina](#autodock-vina)
+      * [rDock](#rdock)
+      * [Results' rescoring](#results-rescoring)
+      * [Other programs](#other-programs)
+  * [Databases and online tools :: macromolecules](#databases-and-online-tools--macromolecules)
+    * [Scientific literature](#scientific-literature)
+    * [Patents](#patents)
+    * [Sequences](#sequences)
+      * [Similar sequences](#similar-sequences)
+      * [Sequences Alignment](#sequences-alignment)
+    * [Other](#other)
+    * [PDB](#pdb)
+      * [Tools](#tools)
+      * [Homology modeling](#homology-modeling)
+  * [Databases and online tools :: small molecules](#databases-and-online-tools--small-molecules)
+    * [Chemical structures](#chemical-structures)
+    * [Activity](#activity)
     * [Other](#other-1)
     * [Drugs](#drugs)
     * [ADMET properties estimation](#admet-properties-estimation)
@@ -109,7 +112,10 @@ MarvinSketch from MarvinBeans Suite. Download for free (after registration): htt
 - run pymol `/opt/pymol-svn/pymol`
 
 ### Usage
-See: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#pymol
+
+- Practical Pymol for Beginners http://www.pymolwiki.org/index.php/Practical_Pymol_for_Beginners
+- http://www.pymolwiki.org/index.php/Gallery
+- See also: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#pymol
 
 
 :zap: **Practicals:**
@@ -127,6 +133,15 @@ For protein 4N49 prepare images:
 - distance and angles measurement; sidechains labelling:
  
 ![pymol](data/pymol3.png)
+
+
+## UCSF Chimera (optional)
+
+Another strucute visualisation/editing program.
+- Download: https://www.cgl.ucsf.edu/chimera/download.html
+- Getting started: https://www.cgl.ucsf.edu/Outreach/Tutorials/GettingStarted.html
+- how to make high-quality images of a protein surface colored by hydrophobicity and electrostatic potential: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/surfprop.html
+
 
 
 ## KNIME
