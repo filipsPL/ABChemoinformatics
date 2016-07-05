@@ -5,6 +5,8 @@
 | background color | `bg_color black` | `background solid black` |
 | fetch pdb file | `fetch code` | `open code` |
 | color atoms | | `color yellow ligand & C` |
+| hide hydrogen bonds | | `~hbonds.` |
+
 
 # Chimera - interesting stuff
 
