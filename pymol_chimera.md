@@ -11,7 +11,7 @@
 # Chimera - interesting stuff
 
 - Image Tutorial: Surface Properties: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/surfprop.html
-
+- Structure analysis: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/squalene.html
 
 ```
 delete :.a
@@ -23,4 +23,9 @@ color yellow ligand & C
 
 # hydrophobicity:
 rangecolor kdHydrophobicity min dodger blue 0 white max orange red
+# from dodger blue for the most polar residues to orange red for the most hydrophobic, with white in between
+
+
 ```
+
+
