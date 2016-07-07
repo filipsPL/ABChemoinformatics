@@ -141,13 +141,21 @@ Another strucute visualisation/editing program.
 - Download: https://www.cgl.ucsf.edu/chimera/download.html
 - Getting started: https://www.cgl.ucsf.edu/Outreach/Tutorials/GettingStarted.html
 
-### USeful tutorials and howtos:
+### Useful tutorials and howtos:
 - how to make high-quality images of a protein surface colored by hydrophobicity and electrostatic potential: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/surfprop.html
 - Self-Guided Volume Data Exercises: https://www.cgl.ucsf.edu/chimera/data/tutorials/maps08/exercises.html
 - Structure Analysis and Comparison Tutorial: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/squalene.html#surfaces
 - Image Tutorial: Surface Properties: https://www.cgl.ucsf.edu/chimera/current/docs/UsersGuide/tutorials/surfprop.html
 
-See also: my notes about Chimera (useful commands, pymol vs chimera etc.): https://github.com/filipsPL/ABChemoinformatics/blob/master/pymol_chimera.md
+:cyclone: See also: my notes about Chimera (useful commands, pymol vs chimera etc.): https://github.com/filipsPL/ABChemoinformatics/blob/master/pymol_chimera.md
+
+
+:zap: **Practicals:**
+
+For protein 4N49:
+
+- visualize hydrophobicity surface of the protein, with limitation to 6 A around the ligand(s)
+- color molecular surface using Electrostatic Potential (Coulombic is enough)
 
 
 ## KNIME
