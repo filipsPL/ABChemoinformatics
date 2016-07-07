@@ -140,8 +140,14 @@ For protein 4N49 prepare images:
 Another strucute visualisation/editing program.
 - Download: https://www.cgl.ucsf.edu/chimera/download.html
 - Getting started: https://www.cgl.ucsf.edu/Outreach/Tutorials/GettingStarted.html
-- how to make high-quality images of a protein surface colored by hydrophobicity and electrostatic potential: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/surfprop.html
 
+### USeful tutorials and howtos:
+- how to make high-quality images of a protein surface colored by hydrophobicity and electrostatic potential: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/surfprop.html
+- Self-Guided Volume Data Exercises: https://www.cgl.ucsf.edu/chimera/data/tutorials/maps08/exercises.html
+- Structure Analysis and Comparison Tutorial: https://www.cgl.ucsf.edu/chimera/docs/UsersGuide/tutorials/squalene.html#surfaces
+- Image Tutorial: Surface Properties: https://www.cgl.ucsf.edu/chimera/current/docs/UsersGuide/tutorials/surfprop.html
+
+See also: my notes about Chimera (useful commands, pymol vs chimera etc.): https://github.com/filipsPL/ABChemoinformatics/blob/master/pymol_chimera.md
 
 
 ## KNIME
@@ -379,6 +385,7 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 - see: https://en.wikipedia.org/wiki/Markdown
 - Mastering Markdown: https://guides.github.com/features/mastering-markdown/ 
 - http://www.emoji-cheat-sheet.com/ - Emoji cheat sheet
+- My notes about markdown and emoji: https://github.com/filipsPL/ABChemoinformatics/blob/master/markdown%2Bemoji.md#markdown
 
 # RNA Structural Bioinformatics
 
