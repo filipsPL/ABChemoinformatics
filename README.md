@@ -48,6 +48,7 @@ TOC
     * [Gitlab](#gitlab)
     * [Markdown](#markdown)
   * [RNA Structural Bioinformatics](#rna-structural-bioinformatics)
+  * [Fun (optional)](#fun-optional)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -399,3 +400,11 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 
 - see: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#table-of-contents
 - see: http://genesilico.pl/ -> "software"
+
+# Fun (optional)
+
+![xkcd](https://imgs.xkcd.com/comics/wikipedian_protester.png)
+
+- xkcd: https://xkcd.com/
+ - explain xkcd: http://www.explainxkcd.com/
+- PhD comics: http://phdcomics.com/comics.php
