@@ -253,7 +253,9 @@ For protein 4N49:
 
 ## Other
 
-* https://www.targetvalidation.org/
+* https://www.targetvalidation.org/ - helps answering the questions:
+  - I am interested in target T: Which diseases can be treated by modulating target T?
+  - I am interested in disease D: Which targets can be modulated to treat disease D?
 
 
 ## PDB
@@ -372,6 +374,7 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 
 ## Linux and Bash
 - Linux Bash Shell Cheat Sheet - http://cli.learncodethehardway.org/bash_cheat_sheet.pdf (PDF)
+- Other useful commands: `ssh`, `scp`
 
 
 ## Git
