@@ -19,6 +19,7 @@ TOC
       * [Installing under debian/ubuntu/mint](#installing-under-debianubuntumint)
       * [Usage](#usage)
     * [UCSF Chimera (optional)](#ucsf-chimera-optional)
+      * [Useful tutorials and howtos:](#useful-tutorials-and-howtos)
     * [KNIME](#knime)
     * [Molecular docking](#molecular-docking)
       * [AutoDock Vina](#autodock-vina)
@@ -42,6 +43,7 @@ TOC
     * [Drugs](#drugs)
     * [ADMET properties estimation](#admet-properties-estimation)
       * [Cytochrome P450](#cytochrome-p450)
+  * [Other tools and useful links](#other-tools-and-useful-links)
   * [Software corner](#software-corner)
     * [Linux and Bash](#linux-and-bash)
     * [Git](#git)
@@ -49,6 +51,7 @@ TOC
     * [Markdown](#markdown)
   * [RNA Structural Bioinformatics](#rna-structural-bioinformatics)
   * [Fun (optional)](#fun-optional)
+
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -369,6 +372,12 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 ![zapytanie](https://raw.githubusercontent.com/filipsPL/CADD-PW/master/elementy/bazy_danych/zapytanie_patentowe.png)
 
 * Predict various physio-chemical/ADMET properties for the aspirin
+
+# Other tools and useful links
+
+- https://opensourcemolecularmodeling.github.io/ - updated list of the Open Source Molecular Modeling software
+- http://click2drug.org/ - Directory of computer-aided Drug Design tools
+
 
 # Software corner
 
