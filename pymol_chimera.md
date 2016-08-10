@@ -32,6 +32,10 @@ sop zone #0 ligand 5.0 max 1
 # tile structure
 set independent # can be used to make models rotate about individual centers
 
+# untile structure ?
+reset
+
+
 
 ```
 
