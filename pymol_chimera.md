@@ -38,6 +38,9 @@ set independent # can be used to make models rotate about individual centers
 reset
 
 
+### Color by other prpoerties:
+## tools - depiction - render by attribute
+
 
 ```
 
