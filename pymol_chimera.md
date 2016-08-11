@@ -40,6 +40,7 @@ reset
 
 ### Color by other prpoerties:
 ## tools - depiction - render by attribute
+## b-factor: B-factors in PDB files commonly are seen as a measure of (local) mobility in the (macro)molecule. 
 
 
 ```
