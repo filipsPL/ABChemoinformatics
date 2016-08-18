@@ -45,4 +45,4 @@ reset
 
 ```
 
-
+- [Looping Through Data Files and Running Chimera Commands on Them](https://www.cgl.ucsf.edu/chimera/docs/ProgrammersGuide/basicPrimer.html)
