@@ -339,6 +339,7 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 - http://www.organic-chemistry.org/prog/peo/ - calculates on-the-fly various drug-relevant properties
 - http://lmmd.ecust.edu.cn:8000/ - A comprehensive source and free tool for evaluating chemical ADMET properties
 - http://tox.charite.de/tox/ - a webserver for the prediction of oral toxicities of small molecules in rodents! 
+- http://www.swisstargetprediction.ch/ - website allows you to predict the targets of a small molecule
 - http://toxnet.nlm.nih.gov/newtoxnet/hsdb.htm - a toxicology database that focuses on the toxicology of potentially hazardous chemicals. It provides information on human exposure, industrial hygiene, emergency handling procedures, environmental fate, regulatory requirements, nanomaterials, and related areas. The information in HSDB has been assessed by a Scientific Review Panel.
 - http://bioinformatics.charite.de/supertoxic/index.php?site=home - collected toxic compounds from literature and web sources in the database SuperToxic. 
 
