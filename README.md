@@ -50,6 +50,7 @@ TOC
     * [Gitlab](#gitlab)
     * [Markdown](#markdown)
   * [RNA Structural Bioinformatics](#rna-structural-bioinformatics)
+  * [Science](#science)
   * [Fun (optional)](#fun-optional)
 
 
@@ -413,6 +414,10 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 
 - see: https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#table-of-contents
 - see: http://genesilico.pl/ -> "software"
+
+# Science
+
+- [English Communication for Scientists](http://www.nature.com/scitable/ebooks/english-communication-for-scientists-14053993/contents)
 
 # Fun (optional)
 
