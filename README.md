@@ -411,6 +411,10 @@ Deduplicating archiver with compression and authenticated encryption, called  "T
 - https://borgbackup.readthedocs.io/en/stable/index.html#
 - https://github.com/borgbackup/borg
 
+### rsync
+
+- https://en.wikipedia.org/wiki/Rsync
+- https://wiki.archlinux.org/index.php/full_system_backup_with_rsync
 
 
 ## Markdown
