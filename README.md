@@ -402,6 +402,16 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 - git - for storing files
 - wiki - for documentation (and/or IPython Notebook: https://ipython.org/notebook.html)
  
+## Backups
+
+### Borg
+
+Deduplicating archiver with compression and authenticated encryption, called  "The holy grail of backup software":
+
+- https://borgbackup.readthedocs.io/en/stable/index.html#
+- https://github.com/borgbackup/borg
+
+
 
 ## Markdown
 
@@ -409,6 +419,9 @@ GitLab, the software, is a web-based Git repository manager with wiki and issue 
 - Mastering Markdown: https://guides.github.com/features/mastering-markdown/ 
 - http://www.emoji-cheat-sheet.com/ - Emoji cheat sheet
 - My notes about markdown and emoji: https://github.com/filipsPL/ABChemoinformatics/blob/master/markdown%2Bemoji.md#markdown
+
+## Programming
+- Ten simple rules for making research software more robust: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005412
 
 # RNA Structural Bioinformatics
 
