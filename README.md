@@ -416,6 +416,9 @@ Deduplicating archiver with compression and authenticated encryption, called  "T
 - https://en.wikipedia.org/wiki/Rsync
 - https://wiki.archlinux.org/index.php/full_system_backup_with_rsync
 
+### duplicity
+
+- http://duplicity.nongnu.org/
 
 ## Markdown
 
