@@ -387,6 +387,12 @@ Homology modeling, also known as comparative modeling of protein, refers to cons
 - Linux Bash Shell Cheat Sheet - http://cli.learncodethehardway.org/bash_cheat_sheet.pdf (PDF)
 - Other useful commands: `ssh`, `scp`
 
+## Python
+
+- https://seaborn.pydata.org/ - a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
+- https://python-graph-gallery.com/ - displays hundreds of charts, always providing the reproducible python code! It aims to showcase the awesome dataviz possibilities of python and to help you benefit it.
+- http://rdkit.sourceforge.net/ - Cheminformatics and Machine Learning Software
+
 
 ## Git
 
