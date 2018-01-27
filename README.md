@@ -5,12 +5,6 @@ ABC of Chemoinformatics
 
 ![email](data/email.png)
 
-[![ghit.me](https://ghit.me/badge.svg?repo=filipsPL/ABChemoinformatics)](https://ghit.me/repo/filipsPL/ABChemoinformatics)
-[![ghit.me](https://ghit.me/badge.svg?repo=benwilber/bashids)](https://ghit.me/repo/benwilber/bashids)
-[![ghit.me](https://ghit.me/badge.svg?repo=filipsPL/autowx2)](https://ghit.me/repo/filipsPL/autowx2)
-
-
-
 TOC
 ==================
 
