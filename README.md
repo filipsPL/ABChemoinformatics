@@ -3,7 +3,8 @@ ABC of Chemoinformatics
 
 ... with focus on macromolecule-ligand interactions. Inspired by magnus' [RNA Structural Bioinformatics Crash Course](https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#rna-structural-bioinformatics-crash-course)
 
-![email](data/email.png)
+![email](data/email.png) [![ghit.me](https://ghit.me/badge.svg?repo=filipsPL/ABChemoinformatics)](https://ghit.me/repo/filipsPL/ABChemoinformatics)
+
 
 TOC
 ==================
