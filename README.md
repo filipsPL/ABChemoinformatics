@@ -1,4 +1,4 @@
-ABC of Chemoinformatics
+ABC of Cheminformatics
 ==================
 
 ... with focus on macromolecule-ligand interactions. Inspired by magnus' [RNA Structural Bioinformatics Crash Course](https://github.com/mmagnus/RNA-Structural-Bioinformatics-Crash-Course/blob/master/README.md#rna-structural-bioinformatics-crash-course)
